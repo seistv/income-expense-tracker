@@ -30,7 +30,7 @@ $(document).ready(function() {
     $('#clear').click(function() {
         $('#income-table tbody, #expense-table tbody').empty();
         $('#income-total, #expense-total, #net-balance').text('0');
-        $('.warning').addClass('d-none');
+        $('.warning').hide();
         $('#net-balance').removeClass('text-danger');
     });
     
